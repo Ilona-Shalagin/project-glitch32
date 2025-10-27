@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(https://cdn.glitch.global/d44d0880-74be-42b8-a8ae-8e5867627b23/paris.webp?v=1676678232651);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkblue;
+}
+h1 {
+    background-color:#DBE6FD ;
+    padding:20px;
+    font-size: 50px;
+    font-family: 'Yaldevi', sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.game{
+    background-color:rgba(251,248,249,0.82);
+    height: 200px;
+    width:100px;
+    margin-top: 50px;
+    margin:50px;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Yaldevi', sans-serif;
+}
+h2{
+    position: absolute;
+    bottom: 10px;
+}
+a{
+    color: #DBE6FD;
+    font-family: 'Yaldevi', sans-serif;
+}
+.days, .hours,.minutes,.seconds{
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 25px;
+}
+.start{
+    color:#BF1363;
+}
+
+@media all and (max-width: 770px ) {
+    .container{
+        margin-bottom: 160px;
+  }h1{
+    font-size:30px;
+  }
+  
+}
+
+@media all and (max-width: 500px) {
+    h1{
+        font-size: 30px;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+}
+    
