@@ -1,5 +1,5 @@
 function olympicCountdown(){
-    const olympicDate = new Date("July 26, 2024 18:00");
+    const olympicDate = new Date("July 26, 2026 18:00");
     const now = new Date();
     
     const result = olympicDate-now;
