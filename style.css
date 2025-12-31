@@ -3,7 +3,7 @@
     justify-content: center;
 }
 body{
-    background-image: url(paris.png);
+    background-image: url(images/paris.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: darkblue;
